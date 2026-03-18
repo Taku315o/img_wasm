@@ -1,0 +1,10 @@
+{
+  "name": "img-wasm-monorepo",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "build:wasm": "pnpm -C packages/wasm build",
+    "build:js": "pnpm -C packages/js build",
+    "build": "pnpm build:wasm && pnpm build:js"
+  }
+}

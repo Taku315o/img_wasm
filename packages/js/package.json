@@ -1,0 +1,15 @@
+{
+  "name": "@img-wasm/js",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@img-wasm/wasm": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean"
+  }
+}

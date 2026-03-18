@@ -1,0 +1,11 @@
+{
+  "name": "@img-wasm/wasm",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./module": "./dist/img_core.js"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
